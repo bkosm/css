@@ -6,43 +6,47 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css?family=Open+Sans:400,700"
     />
-    <link rel="stylesheet" href="../normalize.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="index.css" />
   </head>
-  <body>
-    <div class="card">
-      <div class="card-left">
-        <div class="card-tooltip">PHP</div>
+  <body class="h-screen flex justify-center items-center">
+    <div class="rounded-lg flex card-container">
+      <div
+        class="p-6 flex flex-3 flex-col justify-between items-center text-white rounded-lg card-left"
+      >
+        <div class="rounded-full px-5 py-0.5 bg-translucent">PHP</div>
 
         <img
           src="https://laracasts.s3.amazonaws.com/series/thumbnails/10-techniques-for-cleaner-code.png?v=8"
-          width="100"
+          class="w-20"
         />
 
-        <div class="card-difficulty">Intermediate Difficulty</div>
+        <div class="text-center font-bold">Intermediate Difficulty</div>
       </div>
 
-      <div class="card-right">
-        <h1>Testing Jargon</h1>
-        <div>
+      <div class="flex-10 p-4 flex flex-col text-gray-400">
+        <h1 class="text-3xl text-black mb-3">Testing Jargon</h1>
+        <div class="m-auto flex-1">
           There's no two ways about it: terminology in the testing world is
           incredibly overwhelming. Let's fix that! Bit by bit, we'll break all
           of these confusing concepts down as best as we can.
-          
         </div>
-        <footer>
-          <div class="icon">
+        <footer class="flex justify-around">
+          <div class="flex gap-2">
             <img
               src="https://cdn-icons-png.flaticon.com/512/29/29302.png"
-              width="20"
+              class="w-6"
             />
             5 lessons
           </div>
 
-          <div class="icon">
+          <div class="flex gap-2">
             <img
               src="https://cdn-icons-png.flaticon.com/512/1086/1086581.png"
-              width="20px"
+              class="w-6"
             />
             53:10 min
           </div>
