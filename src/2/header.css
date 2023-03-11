@@ -1,0 +1,33 @@
+.gradient {
+  background-image: linear-gradient(to right, #a25b5b, #692e4c);
+}
+
+header .top {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  align-items: center;
+}
+
+h1 {
+  margin: 0;
+}
+
+header .bottom {
+  display: flex;
+  justify-content: center;
+}
+
+.bottom > a {
+  padding: 2em 2em;
+}
+
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: underline;
+}
