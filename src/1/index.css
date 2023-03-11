@@ -1,3 +1,47 @@
+body {
+  font-family: "Open Sans";
+}
+
+header {
+  background-image: linear-gradient(to right, #a25b5b, #692e4c);
+}
+
+header .top {
+  display: flex;
+  justify-content: space-between;
+  padding: 2em;
+  color: white;
+  align-items: center;
+}
+
 h1 {
-    color: red;
+  margin: 0;
+}
+
+header .bottom {
+  display: flex;
+  justify-content: center;
+}
+
+.bottom > a {
+  padding: 2em 2em;
+}
+
+.translucent {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
 }

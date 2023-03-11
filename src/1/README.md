@@ -1,7 +1,4 @@
 # Piece By Piece - Structure, Resets, and Flexbox
 
-# Raw
+# Fin
 ![](raw.png)
-
-# Styled
-![](styled.png)
