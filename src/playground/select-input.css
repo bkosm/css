@@ -1,0 +1,42 @@
+body {
+  font-family: "Open Sans";
+}
+
+.phone-number-input {
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid rgb(185, 185, 185);
+  border-radius: 10px;
+  transition: all 500ms;
+  padding: 0 10px;
+}
+
+.phone-number-input:hover {
+  border: 2px solid black;
+}
+
+.select {
+  padding-right: 5px;
+  margin-right: -1px;
+  border-right: 2px solid rgb(185, 185, 185);
+  appearance:none;
+}
+
+.select > option:hover {
+  border-right: 2px solid black;
+}
+
+.input {
+  padding-left: 10px;
+  margin-left: -1px;
+  border-left: 2px solid rgb(185, 185, 185);
+}
+
+.input:hover {
+  border-left: 2px solid black;
+}
+
+.focus-offset {
+  outline-offset: 5px;
+  outline-color: rgb(45, 102, 187);
+}
