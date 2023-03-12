@@ -1,0 +1,25 @@
+body {
+  font-family: "Open Sans";
+}
+
+.card-container {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.12), 0 2px 4px 0 rgba(0, 0, 0, 0.08);
+  width: 475px;
+  height: 260px;
+}
+
+.flex-3 {
+  flex: 3;
+}
+
+.card-left {
+  background-image: linear-gradient(to bottom, #21c8f6, #637bff);
+}
+
+.bg-translucent {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.flex-10 {
+  flex: 10;
+}
