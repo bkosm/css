@@ -10,7 +10,75 @@
       href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="index.css" />
+  <link rel="stylesheet" href="index.css" />
+  
   </head>
-  <body>tt</body>
+  <body class="flex flex-col min-h-screen">
+    <div class="flex-1">
+      <div class="border-b p-4">
+        <h1 class="text-gray-400 font-bold m-4 uppercase">
+          instant navigation
+        </h1>
+
+        <div class="bg-gray-200 flex justify-between">
+          <a href="#">Home</a>
+          <a href="#">About</a>
+          <a href="#">Contact</a>
+          <a href="#">Our Mission</a>
+        </div>
+      </div>
+      <div class="border-b p-4">
+        <h1 class="text-gray-400 font-bold m-4 uppercase">split nav</h1>
+
+        <div class="bg-gray-200 flex justify-between">
+          <div class="flex gap-4">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+          </div>
+          <div class="flex gap-4">
+            <a href="#">Contact</a>
+            <a href="#">Our Mission</a>
+          </div>
+        </div>
+      </div>
+      <div class="border-b p-4">
+        <h1 class="text-gray-400 font-bold m-4 uppercase">
+          align image with text
+        </h1>
+
+        <div class="flex">
+          <img src="http://via.placeholder.com/350x150" />
+          <div class="flex flex-col justify-center px-5 w-1/2">
+            <h1>My trip to...</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              elusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="border-b p-4">
+        <h1 class="text-gray-400 font-bold m-4 uppercase class="text-xl font-sem">
+          perfectly centered text
+        </h1>
+
+        <div class="bg-gray-200 min-h-fit w-1/2 flex flex-col justify-center items-center py-2">
+          <h1>Flexbox is Amazing</h1>
+          <p class="w-1/2">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            elusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+        </div>
+      </div>
+      <div class="p-4">
+        <h1 class="text-gray-400 font-bold m-5 uppercase">
+          always bottomed footer
+        </h1>
+      </div>
+    </div>
+
+    <footer class="text-xl uppercase flex items-center p-2 bg-gray-200">
+      css @ 2023
+    </footer>
+  </body>
 </html>
