@@ -1,0 +1,18 @@
+body {
+  font-family: "Open Sans";
+}
+
+a {
+  text-decoration: none;
+  transition: 500ms all;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: rgb(137, 137, 255);
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 1.1em;
+}
